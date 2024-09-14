@@ -48,3 +48,13 @@ You'll see something like "*Sent Handshake: {"name":"handshake","user":"YourUser
 You'll see something like "*Sent Cloud Update: {"method":"set","user":"YourUsername","project_id":"1067597166","name":"☁ Cloud","value":"123456789"}*" under "*Response Packets*".<br/>
 ![Packet Method (set), Username, Project ID, Variable Name, Value](https://github.com/user-attachments/assets/0e90ecca-82d7-4876-a028-a67a5e2d4b77)
 
+
+## What's Planned
+
+I'm planning on continuing to improve the Chrome extension. Here's what's coming in future updates:
+
+- **Better UI**: A cleaner, more user-friendly design for easier navigation.
+- **Username & Project ID Autofill**: Automatically fill in your account's username and the current project's ID to save time.
+- **Easy Save-and-Load**: Quickly save and load frequently used packet configurations.
+- **Dark Mode**: A sleek dark theme for improved visibility in low-light environments.
+- **Improved UI**: Streamlined interface with responsive design for an overall better experience.
