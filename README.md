@@ -23,10 +23,10 @@ This Chrome extension allows users to send custom WebSocket packets to modify Sc
 > Use this extension only on Scratch projects you own or have permission to modify. Unauthorized use can violate Scratch's terms of service and result in penalties. Learn more [here](https://scratch.mit.edu/terms_of_use).
 
 **Step 1:** Sign Into Scratch<br/>
-Ensure you are signed into a Scratch account with the Scratcher role to use cloud variables.
+Ensure you are signed into a Scratch account with the Scratcher role to use cloud variables.<br/><br/>
 **Step 2:** Preparing Your Project<br/>
 Go to the project you want to use ([Example](https://scratch.mit.edu/projects/1067597166/)) and click the green flag to start it.<br/>
-![Green flag, Red stop sign, Fullscreen](https://github.com/user-attachments/assets/e132682c-fc61-4b82-91e4-1856ce1727fa)<br/><br>
+![Green flag, Red stop sign, Fullscreen](https://github.com/user-attachments/assets/8b0a94ee-9d9c-4954-aa33-cf17e682a0f8)<br/><br>
 **Step 3:** The Handshake<br/>
 1. Click the extension icon and open the "*Handshake*" tab.
 2. Under "*Packet Name:*", enter "*handshake*".
