@@ -1,5 +1,5 @@
 
-# Scratch Cloud Packet Chrome Extension
+# Scratch Cloud Manager
 
 This Chrome extension allows users to send custom WebSocket packets to modify Scratch cloud variables.
 
