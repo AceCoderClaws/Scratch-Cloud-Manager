@@ -57,4 +57,4 @@ I'm planning on continuing to improve the Chrome extension. Here's what's coming
 - **Username & Project ID Autofill**: Automatically fill in your account's username and the current project's ID to save time.
 - **Easy Save-and-Load**: Quickly save and load frequently used packet configurations.
 - **Dark Mode**: A sleek dark theme for improved visibility in low-light environments.
-- **Improved UI**: Streamlined interface with responsive design for an overall better experience.
+- **Basic Encryption**: An easy way to encode text-based messages as numbers so projects can receive them.
