@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>☁ Cloud "Hack"</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  <body>
+    <div class="container mt-3" style="width: 450px;">
+      <p class="centre">Scratch Cloud Tool</p>
+
+      <!-- Tab Headers -->
+      <div class="tab-header">
+        <button class="tab-button active" id="handshakeTab">Handshake</button>
+        <button class="tab-button" id="sendActionTab">Send Action</button>
+        <button class="tab-button" id="savedPrefabsTab">Prefabs</button>
+        <button class="tab-button" id="textEncryptorTab">Encryptor</button>
+      </div>
+
+      <!-- Handshake Tab -->
+      <div id="Handshake" class="tab-content active">
+        <form id="handshakeForm">
+          <label for="hs_user">Username:</label><br>
+          <input type="text" id="hs_user" name="user"><br>
+          <label for="hs_project_id">Project ID:</label><br>
+          <input type="text" id="hs_project_id" name="project_id"><br><br>
+          <input type="button" value="Submit" id="submitButton">
+        </form>
+      </div>
+
+      <!-- Send Action Tab -->
+      <div id="SendAction" class="tab-content">
+        <form id="updateForm">
+          <label for="name">Packet Method:</label><br>
+          <input type="text" id="name" name="name"><br>
+          <label for="user">Username:</label><br>
+          <input type="text" id="user" name="user"><br>
+          <label for="project_id">Project ID:</label><br>
+          <input type="text" id="project_id" name="project_id"><br>
+          <label for="var_name">Variable Name:</label><br>
+          <input type="text" id="var_name" name="var_name"><br>
+          <label for="value">Value:</label><br>
+          <input type="text" id="value" name="value"><br>
+          <input type="button" value="Submit" id="sendActionSubmitButton">
+        </form>
+      </div>
+
+      <!-- Prefabs Tab -->
+      <div id="Prefabs" class="tab-content">
+        <p class="animation">Under Construction</p>
+      </div>
+
+      <!-- Encryptor Tab -->
+      <div id="Encryptor" class="tab-content">
+        <p class="animation">Under Construction</p>
+      </div>
+
+      <!-- Textarea to display logs -->
+      <div class="window_lower">
+        <br>
+        <label for="response">Logs:</label><br>
+        <textarea id="response" rows="10" style="width: 100%;" readonly></textarea>
+      </div>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>

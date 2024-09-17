@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'BlackBoysOnMopeds';
+  src: url('fonts/BLACKBOYSONMOPEDS.ttf') format('truetype');
+}
+
+label {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #575E75;
+  font-weight: bold;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.window_lower textarea {
+  width: 408px !important;
+  height: 100px;
+  margin: 10px;
+  display: block;
+  padding: 10px;
+  resize: none
+}
+
+.window_lower label {
+  margin: 10px;
+  padding: 3px;
+}
+
+.window_lower {
+  background-color: #f2f2f2;
+}
+
+.centre {
+  text-align: center;
+  font-family: "BlackBoysOnMopeds", sans-serif;
+  font-size: 2em;
+  color: #fbb824;
+  font-weight: 100;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.tab-content {
+  flex-shrink: 0;
+}
+
+/* Tabs */ 
+button {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.tab-widget {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.tab-header {
+  display: flex;
+  border-bottom: 2px solid #7753c0;
+}
+
+.tab-button {
+  flex: 1;
+  padding: 10px;
+  background-color: #855cd6;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  outline: none;
+  font-size: 1em;
+}
+
+.tab-button:hover {
+  background-color: #ab90df;
+}
+
+.tab-button.active {
+  background-color: #6a46b1;
+  border-bottom: 2px solid #6a46b1;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* Animation */
+@keyframes underConstruction {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.animation {
+  animation: underConstruction 0.2s ease 0s 1 normal none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #575E75;
+  font-weight: bold;
+  font-size: large;
+  text-align: center
+}
